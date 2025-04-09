@@ -1,4 +1,4 @@
-class Calculator():
+class Calculator:
     """
     A simple calculator class that can perform basic arithmetic operations.
     """
