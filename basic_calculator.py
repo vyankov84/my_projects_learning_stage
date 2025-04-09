@@ -52,7 +52,7 @@ class Calculator():
 
     def __repr__(self):
         """
-        Return the a formated string or a message if there's no result
+        Return a formated string or a message if there's no result
         """
         if self.result is None:
             return f'No result'
