@@ -11,6 +11,8 @@ A terminal-based game where you play Rock-Paper-Scissors against the computer.
 
 ### 🔢 [Basic Calculator](basic_calculator.py)
 Performs simple arithmetic operations: add, subtract, multiply, divide.
+- Includes basic input validation with regex.
+- Handles division by zero errors
 
 ### 🎲 [Guess the Number Game](guess_the_number_game.py)
 Try to guess the number the computer has randomly chosen.
