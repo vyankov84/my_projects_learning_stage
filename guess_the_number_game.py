@@ -1,6 +1,6 @@
 import random
 
-
+# Handles the game logic and difficulty mode selection
 def play_game():
     print("Welcome to guess the number game!")
     print()
@@ -31,6 +31,7 @@ def play_game():
 
     for i in range(1, num_range + 1):
 
+        # Check if the input is valid number between 1 and 100
         try:
             guess_number = int(input(f"Attempt {i}: "))
 
@@ -46,11 +47,11 @@ def play_game():
                 break
         except ValueError:
             print("Invalid input! Please enter number between (1-100)")
-
+    # Display the correct number if the player didn't guess it
     if not is_guessed:
         print(f"Sorry, you didn't guess the number! It was {value}.")
 
-
+# Main function to start the game and handle replay
 def main():
     while True:
         play_game()
