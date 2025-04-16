@@ -16,6 +16,9 @@ Performs simple arithmetic operations: add, subtract, multiply, divide.
 
 ### 🎲 [Guess the Number Game](guess_the_number_game.py)
 Try to guess the number the computer has randomly chosen.
+- Play 3 modes with different attempts (Easy: 10 / Normal: 7 / Hard: 5)
+- Option to play again after finishing a game
+- Random number range: 1 to 100
 
 ### 🤖 [Groq AI Project](groq_ai_project.py)
 A practice project using Groq AI logic with an API key
